@@ -1,4 +1,4 @@
-# Evaluation MIW2018 n°1
+﻿# Evaluation MIW2018 n°1
 
 ## Polices :
 * police principale : Bernina (cf fichier joint)

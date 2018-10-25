@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Bernina;
+    src: url('fonts/BerninaSans-Web-CondensedBold.woff2');
+}
+
+@font-face {
+    font-family: Gotham;
+    src: url('fonts/GothamHTF.ttf');)
+}
+
+body {
+    background-color: azure;
+    text-align: center;
+    font-family: Bernina,sans-serif;
+
+}
+
+
+#imagehomme{
+    position: relative;
+}
+
+#labelpromo {
+    top: 10%;
+    right: 5%;
+    background-color: crimson;
+    color: white;
+    position: absolute;
+    transform: rotate(20deg);
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+
+#photohomme{
+    width: 100%;
+    height: auto;
+}
+
+#logordv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#textbotimg{
+    bottom: 1%;
+    position:absolute;
+    color: white;
+    font-size: 150%;
+    background:rgba(255,255,255,0.3 );
+    width: 100%;
+    text-align: left;
+}
+
+#com2{
+    font-size: 70%;
+}
+
+#botpage{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#buttonRDV{
+    text-align: center;
+    border-radius: 8px;
+    height: 100%;
+    color : darkcyan;
+    background-color: azure;
+    font-size: 130%;
+
+
+}
+
+#imgsBot{
+    display: flex;
+    justify-content: space-around;
+}
+
+#text{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 200%;
+}
+
+h2{
+    text-align: end;
+}
+
+h3{
+    font-family: Gotham,sans-serif;
+}
+.imgsBot{
+    display :flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #imgsBot {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #imgsoins{
+        order: 1;
+    }
+    #cryoth{
+        order: 2;
+    }
+    #cryol{
+        order: 3;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    #imgsoins{
+        order: 3;
+    }
+    #cryoth{
+        order: 1;
+    }
+    #cryol{
+        order: 2;
+    }
+}
+
+
